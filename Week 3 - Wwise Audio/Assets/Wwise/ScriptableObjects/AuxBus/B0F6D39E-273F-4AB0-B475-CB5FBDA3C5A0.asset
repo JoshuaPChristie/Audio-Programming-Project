@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f015c93631879845b5df7dd109df3fc, type: 3}
+  m_Name: B0F6D39E-273F-4AB0-B475-CB5FBDA3C5A0
+  m_EditorClassIdentifier: 
+  objectName: Big_Room
+  id: 4202071913
+  guid: B0F6D39E-273F-4AB0-B475-CB5FBDA3C5A0

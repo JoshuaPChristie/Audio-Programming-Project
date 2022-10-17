@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footstep" ID="{5D2E164D-D401-4AC0-A8A8-0B022283F443}">
+					<ChildrenList>
+						<Action Name="" ID="{046140D2-0129-4A9B-87A2-549E2E651E32}" ShortID="331622003">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{084144CB-B21E-43E0-A01E-0F1695FAC694}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LoopEvent" ID="{B2654888-82BA-4B17-B568-0897C357A2C9}">
+					<ChildrenList>
+						<Action Name="" ID="{27027CA6-7DD0-420E-A69A-5C577224748A}" ShortID="311490352">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Loop" ID="{0529AA60-3F9A-4DA8-B24A-9F6A7F053148}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

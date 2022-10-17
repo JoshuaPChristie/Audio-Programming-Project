@@ -1,0 +1,36 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2284983946	CoinsCollected			\Default Work Unit\CoinsCollected	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	678209053	Two	CoinsCollected			
+	748895195	None	CoinsCollected			
+	766521211	Zero	CoinsCollected			
+	912956111	Three	CoinsCollected			
+	1064933119	One	CoinsCollected			
+	2611770117	Five	CoinsCollected			
+	2863728729	Four	CoinsCollected			
+	748895195	None	GameState			
+	1780448749	Puzzle	GameState			
+	2716678721	Victory	GameState			
+	3663283413	Discovery	GameState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1834233174	Medium_Room			\Default Work Unit\Master Audio Bus\Medium_Room	
+	4063189299	Corridor			\Default Work Unit\Master Audio Bus\Corridor	
+	4103918620	Small_Room			\Default Work Unit\Master Audio Bus\Small_Room	
+	4202071913	Big_Room			\Default Work Unit\Master Audio Bus\Big_Room	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

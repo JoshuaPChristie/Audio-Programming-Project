@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88C6B70D-71BA-4029-842A-9BB41665F24B}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{88C6B70D-71BA-4029-842A-9BB41665F24B}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Music" ID="{C128EB25-3AAB-4170-AAFD-63F0D05AA656}" ShortID="390915666">
+					<PropertyList>
+						<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3FC951C4-0E00-494D-B677-9AA16F45DF7E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Victory Music" ID="{110E8EA3-2BAD-4A5C-BFAA-DF85E6AFBD21}" ShortID="121546098">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3FC951C4-0E00-494D-B677-9AA16F45DF7E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Hypnotic-Puzzle4" ID="{3A54CB8B-9E54-4CDE-B9CA-88FA39808C0E}" ShortID="105454520">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="24072"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3FC951C4-0E00-494D-B677-9AA16F45DF7E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hypnotic-Puzzle4" ID="{5609EB72-BB3A-4067-A6A7-219954A652B2}" ShortID="819092456">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hypnotic-Puzzle4" ID="{FD249A05-8B54-452C-80A3-3ECE050F64EA}">
+													<Language>SFX</Language>
+													<AudioFile>Hypnotic-Puzzle4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="221400030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B5D1134B-8106-4AAE-90E3-4DBBBEE7DD00}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{40445561-CBC6-46CD-9AF1-D1891CFAC7C5}">
+															<TransitionInfo/>
+														</MusicTransition>
+													</ChildrenList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2B77DACD-7CAC-4D0D-AA71-DD2C4801C5A0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Hypnotic-Puzzle4" ID="{5FEC6B1C-84F4-4D80-B191-DFBE32B116AA}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24072"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Hypnotic-Puzzle4" ID="{FD249A05-8B54-452C-80A3-3ECE050F64EA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7B23A834-0F24-462A-9ED3-E3CA05CD2447}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{C5F95505-F774-4946-9EA8-5663F868987F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24072"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2CEC1BD3-B65E-407D-A717-5F59A0F269E6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{EB682816-57B3-4BA6-8B0B-0F3D7285FB67}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F712AB9F-9E85-483B-AAF1-C5D3EAC95D38}" ShortID="295640171">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{54DCE866-0B5E-41F5-A496-A1DE2450E6E9}" ShortID="408159998">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Hypnotic-Puzzle4" ID="{3A54CB8B-9E54-4CDE-B9CA-88FA39808C0E}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Puzzle Music" ID="{84E2E1A1-3565-48BA-B211-FFB7696BE8B5}" ShortID="24267584">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3FC951C4-0E00-494D-B677-9AA16F45DF7E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Puzzle-Game-5_Looping" ID="{EE3D4CEA-D8EF-4F5A-BE5B-32D0296BB94F}" ShortID="593541649">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="91872.6530612245"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3FC951C4-0E00-494D-B677-9AA16F45DF7E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Puzzle-Game-5_Looping" ID="{993C2F74-583C-41E1-976E-D1CC858870AC}" ShortID="764127482">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Puzzle-Game-5_Looping" ID="{D84119BA-1E9B-4F73-9F68-16B005126778}">
+													<Language>SFX</Language>
+													<AudioFile>Puzzle-Game-5_Looping.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="884915617"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F8CB4CD4-4CF6-4BF4-8802-0BCE2B22FFCC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6887599E-F8B3-4190-8DFE-77FEA7840B55}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Puzzle-Game-5_Looping" ID="{33910E4C-E958-430D-984D-EADB473E748A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="91872.6530612245"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Puzzle-Game-5_Looping" ID="{D84119BA-1E9B-4F73-9F68-16B005126778}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4D1CF9F0-4F4A-45DF-B8A9-3F8045263F6C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{36B405BC-6552-4E31-8472-9C0C31579EE9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="91872.6530612245"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7920000A-01A5-458C-B3DB-A7368DB26874}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{76634E01-1BB6-4F5C-A6E4-20BC4B8B72A5}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{43F584C6-29BD-4F07-B9F8-2F3BD744B601}" ShortID="827049576">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{FD2915F1-A00A-49BD-943C-DA94AD986262}" ShortID="54969395">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Puzzle-Game-5_Looping" ID="{EE3D4CEA-D8EF-4F5A-BE5B-32D0296BB94F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="discovery" ID="{E858F2E9-D094-4266-9357-E0F4A1AC0969}" ShortID="317463040">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3FC951C4-0E00-494D-B677-9AA16F45DF7E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="discovery" ID="{08C971AE-FC7A-415B-BB30-D4352B9EA192}" ShortID="660602064">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="discovery" ID="{51C3A169-E8C1-41A7-BFFA-67838CA2F5D7}">
+											<Language>SFX</Language>
+											<AudioFile>discovery.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="763226769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E1F1F303-9610-4631-86AE-623361213A42}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{A365B827-C46B-4FA3-9DE9-B6BEEC17122A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="discovery" ID="{22C57559-1D3A-40D9-B211-E86AD2834C58}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="3993.85487528345"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="discovery" ID="{51C3A169-E8C1-41A7-BFFA-67838CA2F5D7}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{907F8F28-A4AC-4FE3-BBBB-91DD4293245D}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{1CBEE93E-FDAE-48BE-8BC6-4CD47DEAB581}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3993.85487528345"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="GameState" ID="{E30D43A1-3F1D-4620-9845-ECAB45286F52}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Victory" ID="{42263FFF-2DCF-492E-9F1B-72CE20DD0760}"/>
+								<CustomState Name="" ID="{83A969C5-C625-41BC-A4B3-61F415AA0C7D}" ShortID="458006901"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Puzzle" ID="{4ED1548C-8049-4C87-8CA5-2D4E9A8FDE95}"/>
+								<CustomState Name="" ID="{C21F5DE2-D817-414A-BD76-B236679E33A3}" ShortID="1036107917"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Discovery" ID="{BBBCC9E5-96C8-4FB5-9E2E-44B11DDC2E82}"/>
+								<CustomState Name="" ID="{29CB87A3-B822-48D4-8275-F82B1A4C5056}" ShortID="1049200116"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{04E5D660-2C17-42A7-BE6A-1F7EB84C4C36}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{689642BF-817A-47F2-90EB-FA02E91A5A86}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{BFB1D245-2530-43F8-B4BD-9E6CD1C640E3}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Hypnotic-Puzzle4" ID="{3A54CB8B-9E54-4CDE-B9CA-88FA39808C0E}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Puzzle-Game-5_Looping" ID="{EE3D4CEA-D8EF-4F5A-BE5B-32D0296BB94F}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{A9D9F255-72BD-48B9-867E-78FA3DC9284C}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{5D6EF165-AC08-4081-A49F-EC390FE183E6}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{D5220186-FA1D-4D73-B338-342C8BD81FD3}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Puzzle-Game-5_Looping" ID="{EE3D4CEA-D8EF-4F5A-BE5B-32D0296BB94F}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Hypnotic-Puzzle4" ID="{3A54CB8B-9E54-4CDE-B9CA-88FA39808C0E}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{2318817E-08E1-4AC1-B8C8-BDA28AC8A530}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{EC0CABEC-AB2D-4CCC-8B8B-CAA231B19E5E}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{388EC04A-4647-4BAA-A413-48609DAFDC55}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="discovery" ID="{E858F2E9-D094-4266-9357-E0F4A1AC0969}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Puzzle-Game-5_Looping" ID="{EE3D4CEA-D8EF-4F5A-BE5B-32D0296BB94F}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{E9100C22-BC2A-413C-BA2C-E01A58996C6F}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{70A4C7E8-0E50-4EDC-B024-3A2D43A94592}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Puzzle-Game-5_Looping" ID="{EE3D4CEA-D8EF-4F5A-BE5B-32D0296BB94F}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="discovery" ID="{E858F2E9-D094-4266-9357-E0F4A1AC0969}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{3AD6F8EE-C4CB-4534-9A7F-1F178FC6D47F}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{73553DED-47FF-4AA9-B6A3-648508842C04}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="GameState" ID="{E30D43A1-3F1D-4620-9845-ECAB45286F52}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Puzzle" ID="{4ED1548C-8049-4C87-8CA5-2D4E9A8FDE95}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Puzzle Music" ID="{84E2E1A1-3565-48BA-B211-FFB7696BE8B5}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Victory" ID="{42263FFF-2DCF-492E-9F1B-72CE20DD0760}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Victory Music" ID="{110E8EA3-2BAD-4A5C-BFAA-DF85E6AFBD21}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Discovery" ID="{BBBCC9E5-96C8-4FB5-9E2E-44B11DDC2E82}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="discovery" ID="{E858F2E9-D094-4266-9357-E0F4A1AC0969}" WorkUnitID="{88C6B70D-71BA-4029-842A-9BB41665F24B}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

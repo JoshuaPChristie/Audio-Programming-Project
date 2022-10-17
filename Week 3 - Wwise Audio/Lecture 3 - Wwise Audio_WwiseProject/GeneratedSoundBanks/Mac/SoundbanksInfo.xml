@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2821554108">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1834233174" Name="Medium_Room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Medium_Room"/>
+				<AuxBus Id="4063189299" Name="Corridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Corridor"/>
+				<AuxBus Id="4103918620" Name="Small_Room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Room"/>
+				<AuxBus Id="4202071913" Name="Big_Room" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Big_Room"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="773066147">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1274655763" Name="Bars" ObjectPath="\Events\Default Work Unit\Bars" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.711672" DurationMax="0.711672">
+					<IncludedMemoryFiles>
+						<File Id="186100573" Language="SFX">
+							<ShortName>Bars-Open-1.wav</ShortName>
+							<Path>SFX\Bars-Open-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3886820807" Name="Birdsong" ObjectPath="\Events\Default Work Unit\Birdsong" MaxAttenuation="40.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="445012448" Language="SFX">
+							<ShortName>Birdsong 1.wav</ShortName>
+							<Path>SFX\Birdsong 1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="977454165" Name="Button" ObjectPath="\Events\Default Work Unit\Button" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.193521" DurationMax="0.193521">
+					<IncludedMemoryFiles>
+						<File Id="454739050" Language="SFX">
+							<ShortName>Button-1.wav</ShortName>
+							<Path>SFX\Button-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="98870701" Name="Coin_Pickup" ObjectPath="\Events\Default Work Unit\Coin_Pickup" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.451020" DurationMax="0.451020">
+					<IncludedMemoryFiles>
+						<File Id="478720581" Language="SFX">
+							<ShortName>Coins-1.wav</ShortName>
+							<Path>SFX\Coins-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3959935949" Name="Coin_Sparkle" ObjectPath="\Events\Default Work Unit\Coin_Sparkle" MaxAttenuation="40.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="671739366" Language="SFX">
+							<ShortName>Sparkle.wav</ShortName>
+							<Path>SFX\Sparkle_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4252072479" Name="Column" ObjectPath="\Events\Default Work Unit\Column" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.822062" DurationMax="1.006354">
+					<IncludedMemoryFiles>
+						<File Id="556060535" Language="SFX">
+							<ShortName>Column-Lower-1.wav</ShortName>
+							<Path>SFX\Column-Lower-1_10C4C929.wem</Path>
+						</File>
+						<File Id="672810456" Language="SFX">
+							<ShortName>Column-Raise-1.wav</ShortName>
+							<Path>SFX\Column-Raise-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.279771" DurationMax="0.331396">
+					<IncludedMemoryFiles>
+						<File Id="265344005" Language="SFX">
+							<ShortName>Door-Close-1.wav</ShortName>
+							<Path>SFX\Door-Close-1_10C4C929.wem</Path>
+						</File>
+						<File Id="696005228" Language="SFX">
+							<ShortName>Door-Open-1.wav</ShortName>
+							<Path>SFX\Door-Open-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.038698" DurationMax="0.069218">
+					<IncludedMemoryFiles>
+						<File Id="155710162" Language="SFX">
+							<ShortName>Footstep-10.wav</ShortName>
+							<Path>SFX\Footstep-10_10C4C929.wem</Path>
+						</File>
+						<File Id="267972628" Language="SFX">
+							<ShortName>Footstep-11.wav</ShortName>
+							<Path>SFX\Footstep-11_10C4C929.wem</Path>
+						</File>
+						<File Id="314654241" Language="SFX">
+							<ShortName>Footstep-7.wav</ShortName>
+							<Path>SFX\Footstep-7_10C4C929.wem</Path>
+						</File>
+						<File Id="671437647" Language="SFX">
+							<ShortName>Footstep-8.wav</ShortName>
+							<Path>SFX\Footstep-8_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2517641552" Name="Gun_Fire" ObjectPath="\Events\Default Work Unit\Gun_Fire" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.178235" DurationMax="0.394966">
+					<IncludedMemoryFiles>
+						<File Id="31699434" Language="SFX">
+							<ShortName>Harpoon-Reel-1(Halfed).wav</ShortName>
+							<Path>SFX\Harpoon-Reel-1(Halfed)_10C4C929.wem</Path>
+						</File>
+						<File Id="132147584" Language="SFX">
+							<ShortName>Harpoon-Fire-1.wav</ShortName>
+							<Path>SFX\Harpoon-Fire-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4088467408" Name="Gun_Pickup" ObjectPath="\Events\Default Work Unit\Gun_Pickup" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.238542" DurationMax="0.238542">
+					<IncludedMemoryFiles>
+						<File Id="674043512" Language="SFX">
+							<ShortName>Gun-Pickup-1.wav</ShortName>
+							<Path>SFX\Gun-Pickup-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Jump" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.309574" DurationMax="0.327982">
+					<IncludedMemoryFiles>
+						<File Id="861989452" Language="SFX">
+							<ShortName>Jump-4.wav</ShortName>
+							<Path>SFX\Jump-4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2548270042" Name="Landing" ObjectPath="\Events\Default Work Unit\Landing" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.125805" DurationMax="0.158504">
+					<IncludedMemoryFiles>
+						<File Id="181687342" Language="SFX">
+							<ShortName>Landing-2.wav</ShortName>
+							<Path>SFX\Landing-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Music\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="221400030" Language="SFX">
+							<ShortName>Hypnotic-Puzzle4.wav</ShortName>
+							<Path>SFX\Hypnotic-Puzzle4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="763226769" Language="SFX">
+							<ShortName>discovery.wav</ShortName>
+							<Path>SFX\discovery_D79FB2B7.wem</Path>
+						</File>
+						<File Id="884915617" Language="SFX">
+							<ShortName>Puzzle-Game-5_Looping.wav</ShortName>
+							<Path>SFX\Puzzle-Game-5_Looping_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4ED1548C-8049-4C87-8CA5-2D4E9A8FDE95}">
+							<Media>
+								<File Id="884915617"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{42263FFF-2DCF-492E-9F1B-72CE20DD0760}">
+							<Media>
+								<File Id="221400030"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BBBCC9E5-96C8-4FB5-9E2E-44B11DDC2E82}">
+							<Media>
+								<File Id="763226769"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="193209502" Name="Wooden_Door" ObjectPath="\Events\Default Work Unit\Wooden_Door" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.315271" DurationMax="0.541729">
+					<IncludedMemoryFiles>
+						<File Id="300708196" Language="SFX">
+							<ShortName>Wooden-Door-Close.wav</ShortName>
+							<Path>SFX\Wooden-Door-Close_10C4C929.wem</Path>
+						</File>
+						<File Id="574485063" Language="SFX">
+							<ShortName>Wooden-Door-Open.wav</ShortName>
+							<Path>SFX\Wooden-Door-Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{E30D43A1-3F1D-4620-9845-ECAB45286F52}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{C1F82EC3-7EA6-48B2-9932-CA640828F6C8}"/>
+						<State Id="1780448749" Name="Puzzle" ObjectPath="\States\Default Work Unit\GameState\Puzzle" GUID="{4ED1548C-8049-4C87-8CA5-2D4E9A8FDE95}"/>
+						<State Id="3663283413" Name="Discovery" ObjectPath="\States\Default Work Unit\GameState\Discovery" GUID="{BBBCC9E5-96C8-4FB5-9E2E-44B11DDC2E82}"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\GameState\Victory" GUID="{42263FFF-2DCF-492E-9F1B-72CE20DD0760}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

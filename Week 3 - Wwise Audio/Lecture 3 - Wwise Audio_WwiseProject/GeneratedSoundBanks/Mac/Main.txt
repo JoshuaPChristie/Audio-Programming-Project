@@ -1,0 +1,72 @@
+Event	ID	Name			Wwise Object Path	Notes
+	98870701	Coin_Pickup			\Default Work Unit\Coin_Pickup	
+	193209502	Wooden_Door			\Default Work Unit\Wooden_Door	
+	977454165	Button			\Default Work Unit\Button	
+	1274655763	Bars			\Default Work Unit\Bars	
+	1877847629	Door			\Default Work Unit\Door	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	2517641552	Gun_Fire			\Default Work Unit\Gun_Fire	
+	2548270042	Landing			\Default Work Unit\Landing	
+	3833651337	Jump			\Default Work Unit\Jump	
+	3886820807	Birdsong			\Default Work Unit\Birdsong	
+	3959935949	Coin_Sparkle			\Default Work Unit\Coin_Sparkle	
+	3991942870	Music			\Music\Music	
+	4088467408	Gun_Pickup			\Default Work Unit\Gun_Pickup	
+	4252072479	Column			\Default Work Unit\Column	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2284983946	CoinsCollected			\Default Work Unit\CoinsCollected	
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	678209053	Two	CoinsCollected			
+	748895195	None	CoinsCollected			
+	766521211	Zero	CoinsCollected			
+	912956111	Three	CoinsCollected			
+	1064933119	One	CoinsCollected			
+	2611770117	Five	CoinsCollected			
+	2863728729	Four	CoinsCollected			
+	748895195	None	GameState			
+	1780448749	Puzzle	GameState			
+	2716678721	Victory	GameState			
+	3663283413	Discovery	GameState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	19387384	One	CoinsCollected	\Actor-Mixer Hierarchy\Default Work Unit\Coins-1		
+	66307246	Four	CoinsCollected	\Actor-Mixer Hierarchy\Default Work Unit\Coins-1		
+	108179133	Zero	CoinsCollected	\Actor-Mixer Hierarchy\Default Work Unit\Coins-1		
+	454514996	Five	CoinsCollected	\Actor-Mixer Hierarchy\Default Work Unit\Coins-1		
+	920564901	Two	CoinsCollected	\Actor-Mixer Hierarchy\Default Work Unit\Coins-1		
+	1050664459	Three	CoinsCollected	\Actor-Mixer Hierarchy\Default Work Unit\Coins-1		
+
+Effect plug-ins	ID	Name	Type				Notes
+	187471429	Echoes_Linear (Custom)	Wwise Delay			
+	684755617	Echoes_Linear (Custom)	Wwise Delay			
+	1071503749	Echoes_Linear (Custom)	Wwise Delay			
+	1588715066	Echoes_Linear	Wwise Delay			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31699434	Harpoon-Reel-1(Halfed)	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Harpoon-Reel-1(Halfed)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun_Fire\Harpoon-Reel-1(Halfed)		36320
+	132147584	Harpoon-Fire-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Harpoon-Fire-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun_Fire\Harpoon-Fire-1		33844
+	155710162	Footstep-10	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Footstep-10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep-10		4788
+	181687342	Landing-2	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Landing-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing-2		22256
+	186100573	Bars-Open-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Bars-Open-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bars-Open-1		54290
+	221400030	Hypnotic-Puzzle4	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Hypnotic-Puzzle4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Victory Music\Hypnotic-Puzzle4\Hypnotic-Puzzle4		4621888
+	265344005	Door-Close-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Door-Close-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Sounds\Door-Close-1		26922
+	267972628	Footstep-11	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Footstep-11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep-11		4650
+	300708196	Wooden-Door-Close	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Wooden-Door-Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wooden_Door_Sounds\Wooden-Door-Close		30330
+	314654241	Footstep-7	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Footstep-7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep-7		5984
+	445012448	Birdsong 1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Birdsong 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birdsong 1		28034752
+	454739050	Button-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Button-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button-1		18642
+	478720581	Coins-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Coins-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coins-1		39844
+	556060535	Column-Lower-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Column-Lower-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Column_Sounds\Column-Lower-1		96674
+	574485063	Wooden-Door-Open	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Wooden-Door-Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wooden_Door_Sounds\Wooden-Door-Open		52070
+	671437647	Footstep-8	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Footstep-8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footstep-8		4234
+	671739366	Sparkle	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Sparkle_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sparkle		3360144
+	672810456	Column-Raise-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Column-Raise-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Column_Sounds\Column-Raise-1		78982
+	674043512	Gun-Pickup-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Gun-Pickup-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun-Pickup-1		22964
+	696005228	Door-Open-1	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Door-Open-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Sounds\Door-Open-1		31878
+	763226769	discovery	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\discovery_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\discovery\discovery		704580
+	861989452	Jump-4	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Jump-4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump-4		57920
+	884915617	Puzzle-Game-5_Looping	C:\Users\joshp\Documents\Abertay\Year 4\CMP407\Coursework\CMP407-Coursework\Week 3 - Wwise Audio\Lecture 3 - Wwise Audio_WwiseProject\.cache\Mac\SFX\Puzzle-Game-5_Looping_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Puzzle Music\Puzzle-Game-5_Looping\Puzzle-Game-5_Looping		16206400
+

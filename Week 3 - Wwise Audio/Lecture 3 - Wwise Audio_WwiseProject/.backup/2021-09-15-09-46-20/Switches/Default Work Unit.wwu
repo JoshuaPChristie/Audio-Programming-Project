@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2CEC9309-ECEA-474D-9EC6-DB8442059AF8}" SchemaVersion="94">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{2CEC9309-ECEA-474D-9EC6-DB8442059AF8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="FootstepSurface" ID="{C65B859D-6EE0-47ED-BDA3-2998AA357A8B}">
+					<ChildrenList>
+						<Switch Name="Floorboards" ID="{EBF1936B-6CAF-41AA-A210-D04C1C69A4FE}"/>
+						<Switch Name="Carpet" ID="{A3385A96-49AC-48FD-9A3C-E35D890E90E3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

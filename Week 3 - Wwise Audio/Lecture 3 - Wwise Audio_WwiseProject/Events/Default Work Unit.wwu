@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{1C3AFEC9-13C9-477A-83C1-48D3E0DF2D8C}">
+					<ChildrenList>
+						<Action Name="" ID="{7EB5A217-9785-489D-8A26-4C93E5E48593}" ShortID="678214009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{9CE9C293-B843-4309-8545-2DA06C9B3337}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Jump" ID="{A23DD9F5-AF1C-4F5C-AFE8-F617168574EE}">
+					<ChildrenList>
+						<Action Name="" ID="{9C4AD55E-E7E1-4970-8C2D-DC3EDDB8F99E}" ShortID="451191609">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{1DB146AC-F583-43AD-BEB0-C7371028F624}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Landing" ID="{353DE358-2230-4DF3-8E39-819403F9BD8F}">
+					<ChildrenList>
+						<Action Name="" ID="{79C7A837-94BC-4B44-8221-3840DCDE6B6D}" ShortID="790064947">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Landing" ID="{93857FCA-0DB3-4832-B89E-9131B61A4F2D}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Button" ID="{E3CE987A-8B32-4CB9-8ECB-8EE309138238}">
+					<ChildrenList>
+						<Action Name="" ID="{DAC0D3BB-29A0-47DA-B5C5-384248F79280}" ShortID="261556578">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button" ID="{3040A38B-EF05-40C4-8D12-FD12BA4A0FAD}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door" ID="{3AA0999C-8987-4F71-8A09-0F4C08CCCB9B}">
+					<ChildrenList>
+						<Action Name="" ID="{2CDFC167-78D9-4FB5-A984-8F0BCAB6919B}" ShortID="184307588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Sounds" ID="{A188D6D6-F828-41BA-8BA4-FA98DAB4C66D}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gun_Pickup" ID="{28ED53AC-DE5B-48DA-9CAB-EF5DA2A94212}">
+					<ChildrenList>
+						<Action Name="" ID="{AA27D00F-7834-4F6F-AB0F-A4CC62DD09A1}" ShortID="1061968293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun-Pickup" ID="{46777F9B-224D-4877-995A-5C528DFAA919}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gun_Fire" ID="{1D5AA7EF-AC69-4F6B-9A01-DDD412CBE804}">
+					<ChildrenList>
+						<Action Name="" ID="{01DFF949-601E-49CB-B7DE-4CB4D97F9914}" ShortID="64360381">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun_Fire" ID="{37743439-FB1D-43B2-A335-81FBBF572B11}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Bars" ID="{7A980EF4-3720-45A3-8C66-65303B06F5CC}">
+					<ChildrenList>
+						<Action Name="" ID="{07E23418-02C4-4669-960B-18149199837E}" ShortID="1014128099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bars-Open" ID="{F2BA2476-E344-49C3-AADB-F474487CA823}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Column" ID="{94033A90-CCC0-4C7D-8C78-F8F0B75366A3}">
+					<ChildrenList>
+						<Action Name="" ID="{C143CDFF-4DDC-4F26-833B-76A947D739DD}" ShortID="252091901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Column_Sounds" ID="{9141DD71-A5AD-4CD3-9F6C-C8DD92922354}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wooden_Door" ID="{E4E28905-F07D-4135-AF7E-7A1636CE3356}">
+					<ChildrenList>
+						<Action Name="" ID="{876CBAE0-6CDF-4A05-B2D9-4B2BF2887E27}" ShortID="138824636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wooden_Door_Sounds" ID="{85AA371A-208C-42D7-8891-787296321A2B}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Coin_Pickup" ID="{8BE72552-B608-4102-AAC4-2F3B222EAC2A}">
+					<ChildrenList>
+						<Action Name="" ID="{C736FEEC-85C9-4386-BFC8-15E3C26FCDD2}" ShortID="593439223">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coins" ID="{E4285BE4-4200-42E2-BD34-9E892C3E92E2}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Coin_Sparkle" ID="{97EAF0BD-697B-4C9D-9BC0-9DF7BA8CAC0C}">
+					<ChildrenList>
+						<Action Name="" ID="{9EFDF0BD-E91A-490B-AF0B-55EAFF8893CE}" ShortID="164435838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sparkle" ID="{0679BBBB-0AB6-4B6D-9AD1-66B130833BE6}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Birdsong" ID="{A14CD2CA-029C-4D79-B072-CA0E168A366D}">
+					<ChildrenList>
+						<Action Name="" ID="{453FA38F-2BC1-473A-B397-F9FFC3A584CC}" ShortID="342510089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birdsong" ID="{64993EEF-397F-44A0-8FDE-34BD647B9818}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

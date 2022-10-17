@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE6A47DD-0E35-40FF-8C95-03D9FCF66721}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EE6A47DD-0E35-40FF-8C95-03D9FCF66721}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{1ED0444E-EC20-4A16-A9FF-BAEB53D936E1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footstep" ID="{084144CB-B21E-43E0-A01E-0F1695FAC694}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Reverb_Bus" ID="{D932D56E-4FDE-47DC-896D-64C8B073662C}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pitch_Shifter_Bus" ID="{867CE148-5E67-49C1-95BD-99F069C063B8}" WorkUnitID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Footstep1" ID="{C4CC5D41-F736-49E0-816A-93FF35F215D8}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Loop" ID="{0529AA60-3F9A-4DA8-B24A-9F6A7F053148}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

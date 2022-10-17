@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C1F3899D-7958-4628-9467-E897C658E2A0}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{C1F3899D-7958-4628-9467-E897C658E2A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="GameState" ID="{E30D43A1-3F1D-4620-9845-ECAB45286F52}">
+					<ChildrenList>
+						<State Name="None" ID="{C1F82EC3-7EA6-48B2-9932-CA640828F6C8}"/>
+						<State Name="Puzzle" ID="{4ED1548C-8049-4C87-8CA5-2D4E9A8FDE95}"/>
+						<State Name="Discovery" ID="{BBBCC9E5-96C8-4FB5-9E2E-44B11DDC2E82}"/>
+						<State Name="Victory" ID="{42263FFF-2DCF-492E-9F1B-72CE20DD0760}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="CoinsCollected" ID="{047B91B7-D896-46C9-9891-3420237271E0}">
+					<ChildrenList>
+						<State Name="None" ID="{BA52E825-C296-4279-A782-67EC6DA6E2FE}"/>
+						<State Name="One" ID="{C33F4EFE-5A38-4E86-99A6-E863EF2C412F}"/>
+						<State Name="Two" ID="{5297D389-CBE7-42C6-B888-EA0CD93B88EB}"/>
+						<State Name="Three" ID="{71CB3209-026C-4834-A546-80CCB9EAE134}"/>
+						<State Name="Four" ID="{A223E4F1-36E5-4DBB-AEA4-7B620B68F85E}"/>
+						<State Name="Five" ID="{3C709642-916E-4F98-8D1C-C9B626CC9BE8}"/>
+						<State Name="Zero" ID="{08748C97-CEE5-4AD5-B411-1E08F1147A9B}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

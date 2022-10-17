@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE6A47DD-0E35-40FF-8C95-03D9FCF66721}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EE6A47DD-0E35-40FF-8C95-03D9FCF66721}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{F8D223C9-E20E-4646-825B-2EC220733B40}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Coin_Pickup" ID="{8BE72552-B608-4102-AAC4-2F3B222EAC2A}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wooden_Door" ID="{E4E28905-F07D-4135-AF7E-7A1636CE3356}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bars" ID="{7A980EF4-3720-45A3-8C66-65303B06F5CC}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{BC5A1EFB-14FC-4665-9019-E33A74CCF66E}" WorkUnitID="{8D43FD1D-0569-4F12-AEAC-B7C3B7D5B7A2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{1C3AFEC9-13C9-477A-83C1-48D3E0DF2D8C}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gun_Pickup" ID="{28ED53AC-DE5B-48DA-9CAB-EF5DA2A94212}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Column" ID="{94033A90-CCC0-4C7D-8C78-F8F0B75366A3}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Coin_Sparkle" ID="{97EAF0BD-697B-4C9D-9BC0-9DF7BA8CAC0C}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button" ID="{E3CE987A-8B32-4CB9-8ECB-8EE309138238}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Birdsong" ID="{A14CD2CA-029C-4D79-B072-CA0E168A366D}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Landing" ID="{353DE358-2230-4DF3-8E39-819403F9BD8F}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump" ID="{A23DD9F5-AF1C-4F5C-AFE8-F617168574EE}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gun_Fire" ID="{1D5AA7EF-AC69-4F6B-9A01-DDD412CBE804}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door" ID="{3AA0999C-8987-4F71-8A09-0F4C08CCCB9B}" WorkUnitID="{D0EF012E-EBE8-49A7-A30A-341998D08917}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

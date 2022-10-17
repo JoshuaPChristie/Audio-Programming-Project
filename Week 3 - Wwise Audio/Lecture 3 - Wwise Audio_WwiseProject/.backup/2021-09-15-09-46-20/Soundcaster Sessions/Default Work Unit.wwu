@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{84E237AF-3E99-4814-A61C-73E75D32BB65}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{84E237AF-3E99-4814-A61C-73E75D32BB65}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{3ADC184C-8266-47B4-9784-9AFEFE22F1CE}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Loop" ID="{0529AA60-3F9A-4DA8-B24A-9F6A7F053148}" WorkUnitID="{F80D2039-0E90-44BC-AC98-393629423B7C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="TestParam" ID="{6CC4EC8E-5666-4CDE-9B6A-FD2E69C959BA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Carpet" ID="{A3385A96-49AC-48FD-9A3C-E35D890E90E3}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}" SchemaVersion="94">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{BD01C66A-06AA-44A8-B660-609BBC953E1F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{20CB7BE5-ABC6-4BFF-B103-B8C392DCBD2E}" WorkUnitID="{1858028E-395B-48AC-9EDE-AF625049F2E4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Reverb_Bus" ID="{D932D56E-4FDE-47DC-896D-64C8B073662C}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Pitch_Shifter_Bus" ID="{867CE148-5E67-49C1-95BD-99F069C063B8}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{B97BDF02-88BC-4C2B-AD67-023D21A00825}">
+										<Effect Name="New_Wwise_Pitch_Shifter_(Custom)" ID="{48DB0A98-CB41-4D6B-968D-3FEDCDA85750}" ShortID="300038505" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+											<PropertyList>
+												<Property Name="Pitch" Type="Real32" Value="-2400">
+													<RTPCList>
+														<RTPC Name="" ID="{11CC9646-9F77-4DA8-B950-AEAD3D4F4E08}" ShortID="932687311">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="TestParam" ID="{6CC4EC8E-5666-4CDE-9B6A-FD2E69C959BA}" WorkUnitID="{FDFE1881-94C4-42AE-A9A4-1061E93BFE9E}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{A9179126-D83F-4CEB-9448-7C801A8BB60E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-4800</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
